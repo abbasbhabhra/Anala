@@ -1,0 +1,55 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ... (rest of your CSS for other sections) */
+/* Clients page styles */
+.clients {
+    background-image: url('spices-2105541_1920.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #ff9900; /* Change the color to a spice-related color */
+}
+
+.about-text,
+.clients-text,
+.contact-text,
+.services-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #ffcc00; /* Change the color to a spice-related color */
+}
+/* Add any additional styles for the clients page here */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #333, #222);
+    color: #fff;
+    font-size: 14px;
+}

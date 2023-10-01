@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* About page styles */
+.about {
+    background-image: url('spices-4185324_1920.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    min-height: 100vh; /* Use min-height instead of height to ensure content can expand */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add relative positioning */
+}
+
+.about-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #ff9900; /* Change the color to a spice-related color */
+}
+
+.about-text,
+.clients-text,
+.contact-text,
+.services-text {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #ffcc00; /* Change the color to a spice-related color */
+}
+
+/* Contact details section styles */
+.contact-details {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #bdcebe; /* Updated background color */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 300px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Add any additional styles for the about page here */
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #333, #222);
+    color: #fff;
+    font-size: 14px;
+}
